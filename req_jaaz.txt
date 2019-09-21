@@ -1,0 +1,21 @@
+Git para controle de versão
+python 3.6 linguagem de programação
+pyenv para ambiente virtualizado (opcional, usei pos gosto de meu ambiente bem organizado.)
+
+O que é um OCR?
+
+Optical Character Recognition ou Reconhecimento Óptico de Caracteres, basicamente é uma tecnologia de reconhecimento de caracteres através de PDFs, Imagens(papel escaneado, foto tirada do celular, e etc), videos(imagens) e outras fontes.
+
+O que é o OpenCV?
+
+O OpenCV é de longe a biblioteca a mais popular biblioteca de visão computacional, você pode trabalhar com ela de uma forma mais alto nível(usando bastante métodos “mágicos”) ou baixo nível (trabalhando com cálculos matriciais).
+
+instalação do Tesseract OCR. Abra o terminal e digite o seguinte comando:
+
+$ sudo apt-get install tesseract-ocr tesseract-ocr-por
+
+precisa de:
+uma camera qq
+uma caixinha de autofalante
+computador para o processamento dos dados (qto melhor o processassador melhor e mais rapido vai ser a aprendizagem tanto daimagem quanto o do audio)
+

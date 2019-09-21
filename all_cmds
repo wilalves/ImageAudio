@@ -1,0 +1,223 @@
+   14  Abr/29 - 18:09:36 cd /media/willalves/WILLIAN/
+  787  Set/10 - 21:45:00 pyenv virtualenv 3.6.0 said
+  788  Set/10 - 21:45:10 pyenv activate said 
+  789  Set/10 - 21:45:27 pip install SpeechRecognition
+  790  Set/10 - 21:46:29 pip install -U pip
+  791  Set/10 - 21:52:09 sudo apt-get install -fy
+  792  Set/10 - 21:52:23 sudo apt-get upgrade
+  793  Set/10 - 22:24:06 sudo pip install gTTS
+  794  Set/10 - 22:35:20 pip install opencv-python
+  795  Set/11 - 05:55:47 pip install --default-timeout=100 future
+  796  Set/11 - 05:56:08 pip install gTTS
+  797  Set/11 - 05:56:16 pip install playsound
+  798  Set/11 - 05:56:23 pip install pyaudio
+  799  Set/11 - 05:56:29 sudo apt-get install libasound-dev -f
+  800  Set/11 - 06:18:22 pip install gi
+  801  Set/11 - 06:20:37 pip3 install pycairo
+  802  Set/11 - 06:20:50 pip3 install PyGObject
+  803  Set/11 - 06:21:28 sudo apt install libgirepository1.0-dev'
+  804  Set/11 - 06:21:32 sudo apt install libgirepository1.0-dev
+  805  Set/11 - 06:23:46 pip install PyGObject
+  806  Set/11 - 18:45:05 git clone https://github.com/italojs/demo-OCR-MS.git
+  807  Set/11 - 18:45:47 cd demo-OCR-MS/
+  808  Set/11 - 18:45:51 gitk --all
+  809  Set/11 - 18:47:18 pyenv activate said 
+  810  Set/11 - 18:47:32 pip install pytesseract
+  811  Set/11 - 18:47:46 pip install Pillow
+  812  Set/11 - 18:50:21 sudo apt-get install liblcms2-dev zlib1g-dev libtiff5-dev libjpeg8-dev libfreetype6-dev libwebp-dev
+  813  Set/11 - 18:50:49 sudo apt-get install tesseract-ocr tesseract-ocr-por
+  814  Set/11 - 19:54:04 gedit all_cmds 
+  815  Set/11 - 18:50:49 sudo apt-get install tesseract-ocr tesseract-ocr-por
+  816  Set/11 - 19:54:04 gedit all_cmds 
+  817  Set/14 - 20:46:05 git init
+  818  Set/14 - 20:46:11 git add *
+  819  Set/14 - 20:46:54 git commit -m "init repository with all samples recogning image and audio"
+  820  Set/14 - 20:52:20 git remote add origin git@github.com:wilalves/ImageAudio.git
+  821  Set/14 - 20:52:25 git remote update 
+  822  Set/14 - 20:53:45 vi .git/config 
+  823  Set/14 - 20:54:23 git fetch 
+  824  Set/14 - 20:54:27 git push -u origin master 
+  825  Set/14 - 20:54:42 git push -u origin master -f
+  826  Set/11 - 05:56:23 pip install pyaudio
+  827  Set/11 - 05:56:29 sudo apt-get install libasound-dev -f
+  828  Set/11 - 06:18:22 pip install gi
+  829  Set/11 - 06:20:37 pip3 install pycairo
+  830  Set/11 - 06:20:50 pip3 install PyGObject
+  831  Set/11 - 06:21:28 sudo apt install libgirepository1.0-dev'
+  832  Set/11 - 06:21:32 sudo apt install libgirepository1.0-dev
+  833  Set/11 - 06:23:46 pip install PyGObject
+  834  Set/11 - 18:45:05 git clone https://github.com/italojs/demo-OCR-MS.git
+  835  Set/11 - 18:45:47 cd demo-OCR-MS/
+  836  Set/11 - 18:45:51 gitk --all
+  837  Set/11 - 18:47:18 pyenv activate said 
+  838  Set/11 - 18:47:32 pip install pytesseract
+  839  Set/11 - 18:47:46 pip install Pillow
+  840  Set/11 - 18:50:21 sudo apt-get install liblcms2-dev zlib1g-dev libtiff5-dev libjpeg8-dev libfreetype6-dev libwebp-dev
+  841  Set/11 - 18:50:49 sudo apt-get install tesseract-ocr tesseract-ocr-por
+  842  Set/11 - 19:54:04 gedit all_cmds 
+  843  Set/11 - 18:50:49 sudo apt-get install tesseract-ocr tesseract-ocr-por
+  844  Set/11 - 19:54:04 gedit all_cmds 
+  845  Set/14 - 20:46:05 git init
+  846  Set/14 - 20:46:11 git add *
+  847  Set/14 - 20:46:54 git commit -m "init repository with all samples recogning image and audio"
+  848  Set/14 - 20:52:20 git remote add origin git@github.com:wilalves/ImageAudio.git
+  849  Set/14 - 20:52:25 git remote update 
+  850  Set/14 - 20:53:45 vi .git/config 
+  851  Set/14 - 20:54:23 git fetch 
+  852  Set/14 - 20:54:27 git push -u origin master 
+  853  Set/14 - 20:54:42 git push -u origin master -f
+  854  Set/15 - 11:49:54 cd Documentos/my_project/liguagem\ C/
+  855  Set/15 - 11:49:57 ls
+  856  Set/15 - 12:00:14 vi ArraySorting.c 
+  857  Set/15 - 12:09:24 vi ArraySorting.c
+  858  Set/15 - 12:09:36 ./arraySorting 
+  859  Set/15 - 12:09:39 gcc ArraySorting.c -o arraySorting
+  860  Set/15 - 12:16:01 vi sizeof.c
+  861  Set/15 - 12:16:46 gcc sizeof.c -o size
+  862  Set/15 - 12:16:48 ./size
+  863  Set/11 - 18:47:46 pip install Pillow
+  864  Set/11 - 18:50:21 sudo apt-get install liblcms2-dev zlib1g-dev libtiff5-dev libjpeg8-dev libfreetype6-dev libwebp-dev
+  865  Set/11 - 18:50:49 sudo apt-get install tesseract-ocr tesseract-ocr-por
+  866  Set/11 - 19:54:04 gedit all_cmds 
+  867  Set/11 - 18:50:49 sudo apt-get install tesseract-ocr tesseract-ocr-por
+  868  Set/11 - 19:54:04 gedit all_cmds 
+  869  Set/14 - 20:46:05 git init
+  870  Set/14 - 20:46:11 git add *
+  871  Set/14 - 20:46:54 git commit -m "init repository with all samples recogning image and audio"
+  872  Set/14 - 20:52:20 git remote add origin git@github.com:wilalves/ImageAudio.git
+  873  Set/14 - 20:52:25 git remote update 
+  874  Set/14 - 20:53:45 vi .git/config 
+  875  Set/14 - 20:54:23 git fetch 
+  876  Set/14 - 20:54:27 git push -u origin master 
+  877  Set/14 - 20:54:42 git push -u origin master -f
+  878  Set/15 - 12:00:14 vi ArraySorting.c 
+  879  Set/15 - 12:09:24 vi ArraySorting.c
+  880  Set/15 - 12:09:36 ./arraySorting 
+  881  Set/15 - 12:09:39 gcc ArraySorting.c -o arraySorting
+  882  Set/15 - 12:16:01 vi sizeof.c
+  883  Set/15 - 12:16:46 gcc sizeof.c -o size
+  884  Set/15 - 12:16:48 ./size
+  885  Set/15 - 17:48:19 cd Documentos/my_project/liguagem\ C/
+  886  Set/15 - 17:48:21 ll
+  887  Set/15 - 17:48:43 mkdir train
+  888  Set/15 - 17:51:24 gcc question1.c -o question1
+  889  Set/15 - 17:51:27 ./question1 
+  890  Set/15 - 17:51:59 vi question1.c
+  891  Set/15 - 17:55:00 vi question2.c
+  892  Set/15 - 17:56:52 gcc question2.c -o question2
+  893  Set/15 - 17:56:56 ./question2 
+  894  Set/15 - 17:57:16 vi question3.c
+  895  Set/15 - 17:58:44 gcc question3.c -o question3
+  896  Set/15 - 17:58:48 ./question3 
+  897  Set/15 - 18:02:04 vi question4.c
+  898  Set/15 - 18:02:20 gcc question4.c -o question4
+  899  Set/15 - 18:02:27 ./question4 
+  900  Set/15 - 18:04:35 vi question5.c
+  901  Set/15 - 18:04:44 gcc question5.c -o question5
+  902  Set/15 - 18:04:48 ./question5
+  903  Set/15 - 18:05:10 vi question6.c
+  904  Set/15 - 18:06:55 gcc question6.c -o question6
+  905  Set/15 - 18:06:58 ./question6
+  906  Set/15 - 18:09:25 vi question7.c
+  907  Set/15 - 18:09:34 gcc question7.c -o question7
+  908  Set/15 - 18:09:39 ./question7
+  909  Set/15 - 18:10:21 cp question7.c question8.c
+  910  Set/15 - 18:10:24 vi question8.c 
+  911  Set/15 - 18:11:05 gcc question8.c -o question8
+  912  Set/15 - 18:11:09 ./question8
+  913  Set/15 - 18:12:00 cp question8.c question9.c
+  914  Set/15 - 18:12:06 vi question9.c 
+  915  Set/15 - 18:13:24 gcc question9.c -o question9
+  916  Set/15 - 18:13:27 ./question9
+  917  Set/15 - 18:13:51 cp question9.c question10.c
+  918  Set/15 - 18:13:59 vi question10.c
+  919  Set/15 - 18:16:07 gcc question10.c -o question10
+  920  Set/15 - 18:16:10 ./question10
+  921  Set/15 - 18:19:28 cd ..
+  922  Set/15 - 18:19:45 ls
+  923  Set/15 - 18:20:08 gedit cap4_1.c
+  924  Set/15 - 18:20:20 gcc cap4_1.c -o cap4_1
+  925  Set/15 - 18:20:24 ./cap4_1 
+  926  Set/15 - 18:20:46 gedit cap4_2.c
+  927  Set/15 - 18:20:57 gcc cap4_2.c -o cap4_2
+  928  Set/15 - 18:21:00 ./cap4_2 
+  929  Set/15 - 18:21:17 gedit cap4_3.c
+  930  Set/15 - 18:21:29 gcc cap4_3.c -o cap4_3
+  931  Set/15 - 18:21:33 ./cap4_3 
+  932  Set/15 - 18:21:48 gedit cap4_4.c
+  933  Set/15 - 18:21:59 gcc cap4_4.c -o cap4_4
+  934  Set/15 - 18:22:05 ./cap4_4 
+  935  Set/15 - 18:22:24 gedit cap4_5.c
+  936  Set/15 - 18:22:34 gcc cap4_5.c -o cap4_5
+  937  Set/15 - 18:22:39 ./cap4_5 
+  938  Set/15 - 18:22:57 gedit cap4_6.c
+  939  Set/15 - 18:23:07 gcc cap4_6.c -o cap4_6
+  940  Set/15 - 18:23:11 ./cap4_6 
+  941  Set/15 - 18:23:27 gedit cap4_7.c
+  942  Set/15 - 18:23:36 gcc cap4_7.c -o cap4_7
+  943  Set/15 - 18:23:42 ./cap4_7
+  944  Set/15 - 18:23:58 gedit cap4_8.c
+  945  Set/15 - 18:24:08 gcc cap4_8.c -o cap4_8
+  946  Set/15 - 18:24:11 ./cap4_8
+  947  Set/15 - 18:24:27 gedit cap4_9.c
+  948  Set/15 - 18:24:35 gcc cap4_9.c -o cap4_9
+  949  Set/15 - 18:24:39 ./cap4_9
+  950  Set/15 - 18:24:53 gedit cap4_10.c
+  951  Set/15 - 18:25:03 gcc cap4_10.c -o cap4_10
+  952  Set/15 - 18:25:07 ./cap4_10
+  953  Set/15 - 18:25:28 gedit cap4_11.c
+  954  Set/15 - 18:25:50 gcc cap4_11.c -o cap4_11
+  955  Set/15 - 18:25:55 ./cap4_11
+  956  Set/15 - 18:26:39 gedit cap4_12.c
+  957  Set/15 - 18:26:48 gcc cap4_12.c -o cap4_12
+  958  Set/15 - 18:26:53 ./cap4_12 
+  959  Set/15 - 18:27:06 gedit cap4_13.c
+  960  Set/15 - 18:27:23 gcc cap4_13.c -o cap4_13
+  961  Set/15 - 18:27:28 ./cap4_13 
+  962  Set/15 - 18:27:43 gedit cap4_14.c
+  963  Set/15 - 18:27:53 gcc cap4_14.c -o cap4_14
+  964  Set/15 - 18:27:58 ./cap4_14 
+  965  Set/15 - 18:28:11 gedit cap4_15.c
+  966  Set/15 - 18:28:19 gcc cap4_15.c -o cap4_15
+  967  Set/15 - 18:28:25 ./cap4_15
+  968  Set/15 - 18:28:41 gedit cap4_16.c
+  969  Set/15 - 18:28:50 gcc cap4_16.c -o cap4_16
+  970  Set/15 - 18:28:58 ./cap4_16 
+  971  Set/15 - 18:29:53 gedit cap4_17.c
+  972  Set/15 - 18:30:01 gcc cap4_17.c -o cap4_17
+  973  Set/15 - 18:30:05 ./cap4_17
+  974  Set/15 - 18:30:18 gedit cap4_18.c
+  975  Set/15 - 18:30:27 gcc cap4_18.c -o cap4_18
+  976  Set/15 - 18:30:30 ./cap4_18
+  977  Set/15 - 18:30:44 gedit cap4_19.c
+  978  Set/15 - 18:30:53 gcc cap4_19.c -o cap4_19
+  979  Set/15 - 18:30:57 ./cap4_19
+  980  Set/15 - 18:31:13 gedit cap4_20.c
+  981  Set/15 - 18:31:24 gcc cap4_20.c -o cap4_20
+  982  Set/15 - 18:31:28 ./cap4_20
+  983  Set/15 - 18:35:40 cd train/
+  984  Set/15 - 18:40:08 gcc duvidaChar.c -o duvidaChar
+  985  Set/15 - 18:40:11 ./duvidaChar 
+  986  Set/15 - 18:40:24 vi duvidaChar.c
+  987  Set/15 - 22:13:39 pyenv activate said 
+  988  Set/15 - 22:14:07 pip freeze
+  989  Set/15 - 22:14:31 pip freeze > requirements.txt
+  990  Set/15 - 22:14:36 vi requirements.txt 
+  991  Set/19 - 20:42:16 cd PycharmProjects/said/
+  992  Set/19 - 20:42:18 ls
+  993  Set/19 - 20:42:31 pyenv activate said 
+  994  Set/19 - 20:42:37 python3 voz.py 
+  995* Set/21 - 13:06:28 
+  996  Set/21 - 13:07:49 find -a all* .
+  997  Set/21 - 13:07:59 find . -a all*
+  998  Set/21 - 13:08:09 find -a all
+  999  Set/21 - 13:08:12 find -a . all
+ 1000  Set/21 - 13:09:13 find . -a all
+ 1001  Set/21 - 13:09:16 find . -a
+ 1002  Set/21 - 13:09:23 find . all* -a
+ 1003  Set/21 - 13:09:26 find . all -a
+ 1004  Set/21 - 13:09:40 locate all*
+ 1005  Set/21 - 13:09:44 locate all* .
+ 1006  Set/21 - 13:10:46 locate all_cm
+ 1007  Set/21 - 13:10:50 locate all_cm .
+ 1008  Set/21 - 13:13:46 history > all_cmds

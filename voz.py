@@ -7,8 +7,9 @@ from PIL import Image # Importando o módulo Pillow para abrir a imagem no scrip
 
 import pytesseract # Módulo para a utilização da tecnologia OCR
 
-teste = Image.open('viado.jpg').convert("L")
+teste = Image.open('viado.png').convert("L")
 
+print(teste)
 teste.save("tes123te.png")
 
 print( pytesseract.image_to_string( teste ) ) # Extraindo o texto da imagem
