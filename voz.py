@@ -7,13 +7,17 @@ from PIL import Image # Importando o módulo Pillow para abrir a imagem no scrip
 
 import pytesseract # Módulo para a utilização da tecnologia OCR
 
-teste = Image.open('viado.png').convert("L")
 
-print(teste)
-teste.save("tes123te.png")
+teste = Image.open('tt.png').convert("L")
+Image._show(teste)
 
-print( pytesseract.image_to_string( teste ) ) # Extraindo o texto da imagem
+#print(teste)
+#teste.save("tes123te.png")
 
+#frase_t = pytesseract.image_to_string( teste )# Extraindo o texto da imagem
+print( pytesseract.image_to_string( teste,  config="-psm 100 -c tessedit_char_whitelist=.0123456789") ) # Extraindo o texto da imagem
+
+#print(frase_t)
 #Funcao responsavel por falar
 def cria_audio(audio):
 
@@ -55,5 +59,6 @@ def ouvir_microfone():
 
     return frase
 
-frase = "SAÍD VIADO"#pytesseract.image_to_string( Image.open('viado.png').convert("L")) # Extraindo o texto da imagem #ouvir_microfone()
-cria_audio(frase)
+#frase = pytesseract.image_to_string( Image.open('original_1.jpeg').convert("1")) # Extraindo o texto da imagem #ouvir_microfone()
+#print(frase)
+#cria_audio(frase)
