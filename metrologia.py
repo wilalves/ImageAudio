@@ -41,7 +41,7 @@ def cria_audio(audio):
 while (choice != 2):
     choice = menu()
     if choice == 1:
-        image = input('Digite o nome da imagem')
+        image = input('Digite o nome da imagem: ')
         img_temp = cv2.imread(image, 1)
         cv2.imshow("lari", img_temp)
 
