@@ -4,6 +4,8 @@ import cv2
 from gtts import gTTS
 from playsound import playsound
 
+import os.path
+
 choice = 0
 
 def menu():
@@ -34,7 +36,7 @@ def cria_audio(audio):
     #Da play ao audio
     playsound('hello.mp3')
 
-    #cv2.waitKey(0)
+    cv2.waitKey(0)
 
 
 
@@ -42,26 +44,31 @@ while (choice != 2):
     choice = menu()
     if choice == 1:
         image = input('Digite o nome da imagem: ')
-        img_temp = cv2.imread(image, 1)
-        cv2.imshow("lari", img_temp)
 
-        im = cv2.cvtColor(img_temp, cv2.COLOR_RGB2GRAY)
-        cv2.imshow('im', im)
+        if os.path.exists(image):
 
-        roi = cv2.threshold(im, 165, 255, cv2.THRESH_BINARY)[1]
-        cv2.imshow('roi', roi)
+            img_temp = cv2.imread(image, 1)
+            #cv2.imshow("lari", img_temp)
 
-        kernel = np.ones((3, 3), np.uint8)
+            im = cv2.cvtColor(img_temp, cv2.COLOR_RGB2GRAY)
+            cv2.imshow('RGB2GRAY', im)
 
-        teste = cv2.erode(roi, kernel, iterations=1)
-        cv2.imshow('teste', teste)
+            roi = cv2.threshold(im, 165, 255, cv2.THRESH_BINARY)[1]
+            cv2.imshow('THRESH_BINARY', roi)
 
-        # chamada ao tesseract OCR por meio de seu wrapper
-        phrase = ocr.image_to_string(roi, config="-psm 100 -c tessedit_char_whitelist=0123456789.m")
+            kernel = np.ones((3, 3), np.uint8)
 
-        cria_audio(phrase)
+            teste = cv2.erode(roi, kernel, iterations=1)
+            cv2.imshow('ERODE', teste)
 
-        cv2.destroyAllWindows()
+            # chamada ao tesseract OCR por meio de seu wrapper
+            phrase = ocr.image_to_string(roi, config="-psm 100 -c tessedit_char_whitelist=0123456789.m")
+
+            cria_audio(phrase)
+
+            cv2.destroyAllWindows()
+        else:
+            print("Imagem inexistente")
 
 
 
